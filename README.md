@@ -15,8 +15,8 @@ FlexiClust utilizes a set of parameters to adapt to various datasets and cluster
 
 1. **Distance Threshold \(d\)**: Defines the neighborhood radius for generating primitive clusters. Smaller \(d\) values create tighter clusters, while larger \(d\) may include more distant points in the same cluster.
 
-2. **Linkage Threshold (\(q\))**: Used to merge primitive clusters into second-order clusters based on Jaccard similarity. Clusters are merged if their similarity meets or exceeds \(q\), controlling the final clustering granularity.
+2. **Linkage Threshold \(q\)**: Used to merge primitive clusters into second-order clusters based on Jaccard similarity. Clusters are merged if their similarity meets or exceeds \(q\), controlling the final clustering granularity.
 
-3. **Minimum Cluster Size (\(s\))**: Sets the minimum size a cluster must have to be retained. Clusters smaller than \(s\) are excluded, ensuring only meaningful clusters are considered.
+3. **Minimum Cluster Size \(s\)**: Sets the minimum size a cluster must have to be retained. Clusters smaller than \(s\) are excluded, ensuring only meaningful clusters are considered.
 
 These parameters (\(d\), \(q\), and \(s\)) work together to control the clustering process, from the formation of clusters based on proximity, through the merging of clusters based on similarity, to the pruning of clusters based on size. By adjusting these parameters, FlexiClust can be fine-tuned to achieve the desired clustering results for any dataset.
