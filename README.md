@@ -13,7 +13,7 @@ FlexiClust leverages the principles of fuzzy logic to allow elements to belong t
 ## Algorithm Parameters:
 FlexiClust utilizes a set of parameters to adapt to various datasets and clustering requirements:
 
-1. **Distance Threshold (\(d\))**: Defines the neighborhood radius for generating primitive clusters. Smaller \(d\) values create tighter clusters, while larger \(d\) may include more distant points in the same cluster.
+1. **Distance Threshold \(d\)**: Defines the neighborhood radius for generating primitive clusters. Smaller \(d\) values create tighter clusters, while larger \(d\) may include more distant points in the same cluster.
 
 2. **Linkage Threshold (\(q\))**: Used to merge primitive clusters into second-order clusters based on Jaccard similarity. Clusters are merged if their similarity meets or exceeds \(q\), controlling the final clustering granularity.
 
